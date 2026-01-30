@@ -1,16 +1,16 @@
-Unnamed: 0,ID,Name,Unit,Dept Name,Supv ID,Supv Name,Checklist Item,Checklist Date,Course Name,Course Due Date,License Name,License Exp Date,Meal Issue
-0,000123,Alex Rivera,Plant A,Manufacturing,9001,Jamie Supervisor,Safety Audit,2025-03-15,Forklift Training,2025-02-28,,,
-1,000124,Jordan Lee,Plant A,Manufacturing,9001,Jamie Supervisor,Equipment Check,2025-04-01,HazMat Basics,2025-03-10,OSHA Cert,2025-06-30,
-2,000125,Sam Patel,Plant B,Logistics,9001,Jamie Supervisor,,,"First Aid",2025-05-01,CPR Cert,2025-07-15,
-3,000126,Morgan Chen,Plant B,Logistics,9001,Jamie Supervisor,Inventory Review,2025-03-20,,,"",,
-4,000127,Taylor Brooks,Plant C,Operations,9001,Jamie Supervisor,Site Walkthrough,2025-04-18,Fire Safety,2025-03-25,,Late meal
-5,000128,Casey Nguyen,Plant C,Operations,9001,Jamie Supervisor,,,"Lockout Tagout",2025-06-01,Electrical Cert,2025-08-01,
-6,000129,Riley Gomez,Plant A,Manufacturing,9001,Jamie Supervisor,PPE Check,2025-03-30,Forklift Training,2025-02-28,,,
-7,000130,Quinn O'Neil,Plant A,Manufacturing,9001,Jamie Supervisor,,,"HazMat Basics",2025-04-10,OSHA Cert,2025-09-30,
-8,000131,Drew Kim,Plant B,Logistics,9001,Jamie Supervisor,Inventory Review,2025-03-20,,,"",Missed break
-9,000132,Jamie Park,Plant C,Operations,9001,Jamie Supervisor,Equipment Check,2025-04-01,Fire Safety,2025-05-01,,Late meal
-10,000133,Leslie Ford,Plant A,Manufacturing,9001,Jamie Supervisor,,,"First Aid",2025-06-15,CPR Cert,2025-10-01,
-11,000134,Robin Shah,Plant B,Logistics,9001,Jamie Supervisor,PPE Check,2025-03-30,Forklift Training,2025-02-28,,,
-12,000135,Devon Miles,Plant C,Operations,9001,Jamie Supervisor,Site Walkthrough,2025-04-18,,,"",Missed break
-13,000136,Harper Diaz,Plant A,Manufacturing,9001,Jamie Supervisor,,,"HazMat Basics",2025-03-10,OSHA Cert,2025-06-30,
-14,000137,Avery Collins,Plant B,Logistics,9001,Jamie Supervisor,Equipment Check,2025-04-01,Fire Safety,2025-05-01,,,
+Unnamed: 0,ID,Name,Unit,Dept Name,Supv ID,Supv Name,OCC,Pay Status,Checklist Descr,Brief Stat,Lic/Cert Code,Licensure/Cert Name,Meal Error Type,Checklist Date,Lic Exp Date
+0,000123,Alex Rivera,Plant A,Manufacturing,9001,Jamie Supervisor,3111,Leave,Lockout/Tagout Review,Overdue,OSHA10,Forklift Operator Card,,2026-03-11,2026-12-05
+1,000124,Jordan Lee,Plant A,Operations,9001,Jamie Supervisor,3111,Active,Lockout/Tagout Review,Not Started,"ELEC1, OSHA10","Electrical Safety Cert, CPR Certification",No meal recorded,2026-05-19,"2026-05-21, 2026-10-03"
+2,000125,Sam Patel,Plant C,Manufacturing,9001,Jamie Supervisor,3205,Active,,Does not exist,,,,,
+3,000126,Morgan Chen,Plant B,Operations,9001,Jamie Supervisor,3131,Terminated,"Inventory Review, Equipment Check",Complete,FORKLIFT,CPR Certification,Late meal,2026-01-17,2026-06-28
+4,000127,Taylor Brooks,Plant B,Maintenance,9001,Jamie Supervisor,3131,Terminated,"Lockout/Tagout Review, PPE Check, Equipment Check",In Progress,,,,2026-05-16,
+5,000128,Casey Nguyen,Plant C,Maintenance,9001,Jamie Supervisor,3140,Suspended,"Safety Audit, Site Walkthrough",Does not exist,"FIRSTAID, CPR, FORKLIFT","Forklift Operator Card, CPR Certification, OSHA 30",Missed break,2026-01-16,"2026-10-21, 2026-05-13, 2026-07-14"
+6,000129,Riley Gomez,Plant A,Quality,9001,Jamie Supervisor,3205,Suspended,Inventory Review,Does not exist,OSHA10,OSHA 10,,2026-05-06,2026-05-21
+7,000130,Quinn O'Neil,Plant C,Operations,9001,Jamie Supervisor,3111,Terminated,Lockout/Tagout Review,Not Started,,,,2026-01-29,
+8,000131,Drew Kim,Plant C,Maintenance,9001,Jamie Supervisor,4010,Leave,"Lockout/Tagout Review, Site Walkthrough, Equipment Check",Overdue,,,Other,2026-05-09,
+9,000132,Jamie Park,Plant A,Maintenance,9001,Jamie Supervisor,3131,Leave,"PPE Check, Inventory Review, Site Walkthrough",,"OSHA10, FORKLIFT","CPR Certification, OSHA 30",,2026-05-05,"2026-04-10, 2026-04-13"
+10,000133,Leslie Ford,Plant B,Quality,9001,Jamie Supervisor,5012,Terminated,"Inventory Review, Safety Audit, Equipment Check",,,,Other,2026-05-18,
+11,000134,Robin Shah,Plant B,Quality,9001,Jamie Supervisor,3131,Leave,Equipment Check,Does not exist,"OSHA10, ELEC1, OSHA10","Electrical Safety Cert, OSHA 30, Forklift Operator Card",,2026-01-16,"2026-04-04, 2026-03-17, 2026-08-17"
+12,000135,Devon Miles,Plant B,Operations,9001,Jamie Supervisor,3111,Leave,"Safety Audit, Equipment Check",Overdue,"CPR, FORKLIFT","CPR Certification, First Aid Certification",Other,2026-01-24,"2026-03-28, 2027-01-29"
+13,000136,Harper Diaz,Plant C,Manufacturing,9001,Jamie Supervisor,3111,Leave,"Equipment Check, Site Walkthrough",Overdue,ELEC1,First Aid Certification,Late meal,2026-04-28,2026-12-07
+14,000137,Avery Collins,Plant A,Manufacturing,9001,Jamie Supervisor,4010,Active,"PPE Check, Equipment Check",Complete,"OSHA30, ELEC1","CPR Certification, First Aid Certification",Missed break,2026-04-07,"2026-12-10, 2026-11-05"
