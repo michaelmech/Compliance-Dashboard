@@ -26,6 +26,7 @@ st.caption('Welcome!')
 def load_data():
     df = pd.read_csv("MMECH/sample_data/compliance_extract_example.csv", index_col="Unnamed: 0")
     df["ID"] = pad_leading_zeros(df["ID"])
+    df["Supv ID"]=df["Supv ID"].astype(str)
     return df
 
 df = load_data()
